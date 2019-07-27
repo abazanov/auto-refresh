@@ -1,0 +1,17 @@
+{
+  "description" : "Autorefreshes page every second if page did not load properly.",
+  "manifest_version" : 2,
+  "name" : "Autorefresh on Error",
+  "version" : "1.0", 
+  "permissions": [
+     "webRequest",
+     "tabs",
+     "<all_urls>"
+   ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": { "16": "icon16.png",
+	"48": "icon48.png",
+	"128": "icon128.png" }
+}
